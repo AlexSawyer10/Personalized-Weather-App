@@ -1,0 +1,61 @@
+.container
+{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 30%;
+    height: 200px;
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+.input-container
+{
+    flex-direction: column;
+    /*maybe add something later*/
+}
+
+html,main
+{
+    min-height: 100vh;
+}
+
+body
+{
+    background-color: #ADD8E6;
+}
+
+input
+{
+    width: 200px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.update-zipcode-button
+{
+    width: 190px;
+}
+
+.update-darkmode-button
+{
+    width: 190px;
+}
+
+.title
+{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: revert;
+    text-shadow: 2px 2px 4px #000; /*https://www.w3schools.com/css/css3_shadows.asp*/
+}
+
+.update-darkmode-button:hover
+{
+    color: black;
+    background-color: #eae2e2;
+}
+

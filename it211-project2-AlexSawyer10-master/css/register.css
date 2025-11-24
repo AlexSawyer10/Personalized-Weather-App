@@ -1,0 +1,53 @@
+body
+{
+
+    background: url(../images/water_background.jpg);
+    background-size: cover;
+}
+.title
+{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px #000;
+
+}
+.custom-card-container
+{
+    max-width: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 438px;
+}
+.register
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+
+}
+.login
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 20px;
+
+}
+.reset-button
+{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.reset-button:hover
+{
+    color: white;
+    background-color: #3b3b3b;
+    font-size: 20px;
+
+}
+
+

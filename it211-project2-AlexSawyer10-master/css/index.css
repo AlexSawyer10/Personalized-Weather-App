@@ -1,0 +1,83 @@
+/*https://www.w3schools.com/css/css3_flexbox.asp flexbox documentation*/
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/water_background.jpg); /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-size refer for background syntax*/
+    background-size: cover;
+
+}
+
+main
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30vh;
+}
+
+footer
+{
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 30vh;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h1
+{
+    color: white;
+    font-size: 85px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/*remember, # tags target a specific id*/
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-button
+{
+    background-color: lightgray;
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    border: 1px black solid;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /*remember this gets rid of underline from an <a> tag. By default an anchor tag has an underline*/
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    text-shadow: 2px 2px 4px #000;
+
+}
+
+.get-started-button:hover
+{
+    background-color: #eae2e2;
+}
+
+.cloud-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 10px;
+}
+
+

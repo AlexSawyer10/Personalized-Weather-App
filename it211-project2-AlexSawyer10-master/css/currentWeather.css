@@ -1,0 +1,59 @@
+.title
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: revert;
+    text-shadow: 2px 2px 4px #000; /*https://www.w3schools.com/css/css3_shadows.asp*/
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 70%;
+    height: 550px;
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+
+.individual-container
+{
+    display: flex;
+    border-bottom: black solid 3px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.temperature-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: black solid 3px;
+}
+h3
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+h4
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}

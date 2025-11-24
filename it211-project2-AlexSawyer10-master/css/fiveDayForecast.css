@@ -1,0 +1,127 @@
+.title
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: revert;
+    text-shadow: 2px 2px 4px #000; /*https://www.w3schools.com/css/css3_shadows.asp*/
+}
+
+.overall-container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.container-1
+{
+    margin-left : 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 30%;
+    height: 300px;
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+
+.container-2
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 30%;
+    height: 300px;
+
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+
+.container-3
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 30%;
+    height: 300px;
+
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+
+.container-4
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 30%;
+    height: 300px;
+
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+
+.container-5
+{
+    margin-right : 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 30%;
+    height: 300px;
+
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding: 1.5rem;
+}
+.in-line-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    border-bottom: black solid 3px;
+
+    width: 100%;
+
+}
+
+h2
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+.in-line-row h3
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 1.4rem;
+    margin: 3px;
+}
+
+.in-line-row i
+{
+    margin: 3px;
+
+}
