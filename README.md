@@ -6,8 +6,8 @@ This application allows you to register/login and view the current weather, and 
 
 ## Technologies used
 
-✅ Rest API's
-✅ Local Storage
-✅ JavaScript
-✅ HTML
-✅ CSS
+✅ Rest API's  
+✅ Local Storage  
+✅ JavaScript  
+✅ HTML  
+✅ CSS  
